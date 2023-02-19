@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TDA2009
+D 10W Car Radio Audio Amplifier, PentaWatt5V
+K TDA2003V Amplifier 10W Pentawatt
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000123.pdf
+$ENDCMP
+#
+#End Doc Library
