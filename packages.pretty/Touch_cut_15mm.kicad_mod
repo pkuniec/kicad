@@ -1,0 +1,63 @@
+(footprint "Touch_cut_15mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 97aed242-095f-4198-bcf5-839b28b57e8d)
+  )
+  (fp_text value "Touch_cut_15mm" (at 0 2.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a3e827ed-1a5e-408d-8d91-d08151d2b18a)
+  )
+  (fp_arc (start 1.905 -8.255) (mid 1.27 -8.89) (end 1.905 -9.525) (layer "Edge.Cuts") (width 0.12) (tstamp 014631a7-c97e-44f3-9c1b-4818a8cb514c))
+  (fp_arc (start 9.525 1.905) (mid 6.868575 6.868575) (end 1.905 9.525) (layer "Edge.Cuts") (width 0.12) (tstamp 01dc343f-0017-4973-9952-2b90b5bd63a5))
+  (fp_arc (start -1.905 -9.525) (mid -1.27 -8.89) (end -1.905 -8.255) (layer "Edge.Cuts") (width 0.12) (tstamp 1aa0c1e5-ad26-4cdc-b67d-cf16797b4c59))
+  (fp_arc (start 9.525 -1.905) (mid 8.89 -1.27) (end 8.255 -1.905) (layer "Edge.Cuts") (width 0.12) (tstamp 30d2fc0b-c8ae-4680-a083-4b0e0b7efbda))
+  (fp_arc (start 8.254999 1.905) (mid 5.990577 5.990577) (end 1.905 8.254999) (layer "Edge.Cuts") (width 0.12) (tstamp 35305ede-68bc-42b5-a3aa-6feabf1a5a86))
+  (fp_arc (start -9.525 -1.905) (mid -6.868575 -6.868575) (end -1.905 -9.525) (layer "Edge.Cuts") (width 0.12) (tstamp 744b07ce-5108-4719-8867-cca94bdbe96e))
+  (fp_arc (start -8.255 -1.905) (mid -8.89 -1.27) (end -9.525 -1.905) (layer "Edge.Cuts") (width 0.12) (tstamp 77ba547d-9b00-46df-b140-1a33b1375488))
+  (fp_arc (start 1.905 -8.254999) (mid 5.990577 -5.990577) (end 8.254999 -1.905) (layer "Edge.Cuts") (width 0.12) (tstamp 7c192c25-be71-4784-914e-54ba2f98d8ad))
+  (fp_arc (start -1.905 8.255) (mid -1.27 8.89) (end -1.905 9.525) (layer "Edge.Cuts") (width 0.12) (tstamp 7d2120c1-a54e-473a-8aa4-ba92ad12f616))
+  (fp_arc (start -1.905 8.254999) (mid -5.990577 5.990577) (end -8.254999 1.905) (layer "Edge.Cuts") (width 0.12) (tstamp 887ee9fb-c96b-439e-bb8a-ed61085dec34))
+  (fp_arc (start -1.905 9.525) (mid -6.868575 6.868575) (end -9.525 1.905) (layer "Edge.Cuts") (width 0.12) (tstamp a002b295-c2ab-441a-a25a-a7588891f0e1))
+  (fp_arc (start -9.525 1.905) (mid -8.89 1.27) (end -8.255 1.905) (layer "Edge.Cuts") (width 0.12) (tstamp d1e54eb3-df1a-4dbd-8a05-06b195de2316))
+  (fp_arc (start 8.255 1.905) (mid 8.89 1.27) (end 9.525 1.905) (layer "Edge.Cuts") (width 0.12) (tstamp d2096aa3-a6d1-46cf-8c16-d7dcff05391f))
+  (fp_arc (start 1.905 9.525) (mid 1.27 8.89) (end 1.905 8.255) (layer "Edge.Cuts") (width 0.12) (tstamp d479843c-1df3-4f4e-b0bc-5fa01ab1c15c))
+  (fp_arc (start 1.905 -9.525) (mid 6.868575 -6.868575) (end 9.525 -1.905) (layer "Edge.Cuts") (width 0.12) (tstamp d63a9c45-326b-4686-a48c-a03ea2a09b69))
+  (fp_arc (start -8.254999 -1.905) (mid -5.990577 -5.990577) (end -1.905 -8.254999) (layer "Edge.Cuts") (width 0.12) (tstamp f66f3ddc-56bc-4b31-b67d-5aa5b42667aa))
+  (pad "1" smd circle (at 0 0) (size 15 15) (layers "F.Cu")
+    (clearance 3) (tstamp ac848ea2-3a38-4759-8073-e24b8d677105))
+  (group "" (id 01d3e651-3536-4a89-a45a-008240848cd9)
+    (members
+      014631a7-c97e-44f3-9c1b-4818a8cb514c
+      30d2fc0b-c8ae-4680-a083-4b0e0b7efbda
+      7c192c25-be71-4784-914e-54ba2f98d8ad
+      d63a9c45-326b-4686-a48c-a03ea2a09b69
+    )
+  )
+  (group "" (id 5fc60c30-815c-43cc-9237-f3ca0c5416b8)
+    (members
+      01dc343f-0017-4973-9952-2b90b5bd63a5
+      35305ede-68bc-42b5-a3aa-6feabf1a5a86
+      d2096aa3-a6d1-46cf-8c16-d7dcff05391f
+      d479843c-1df3-4f4e-b0bc-5fa01ab1c15c
+    )
+  )
+  (group "" (id 7390003a-8730-4cbd-a225-894f8d4b6b25)
+    (members
+      7d2120c1-a54e-473a-8aa4-ba92ad12f616
+      887ee9fb-c96b-439e-bb8a-ed61085dec34
+      a002b295-c2ab-441a-a25a-a7588891f0e1
+      d1e54eb3-df1a-4dbd-8a05-06b195de2316
+    )
+  )
+  (group "" (id bb22d609-6204-4356-98f7-d3858cc0da6e)
+    (members
+      1aa0c1e5-ad26-4cdc-b67d-cf16797b4c59
+      744b07ce-5108-4719-8867-cca94bdbe96e
+      77ba547d-9b00-46df-b140-1a33b1375488
+      f66f3ddc-56bc-4b31-b67d-5aa5b42667aa
+    )
+  )
+)
