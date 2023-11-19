@@ -1,0 +1,34 @@
+(footprint "CONN_PROG_6x_15mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "P**" (at 2.5 0 270) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp de37bc37-aba2-4570-8a9a-ab2ea0aa7a8c)
+  )
+  (fp_text value "CONN_PROG_6x_15mm" (at 0 -2.75) (layer "F.Fab") hide
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
+    (tstamp 9ae1df47-821b-44e6-834f-e0313591a835)
+  )
+  (fp_poly
+    (pts
+      (xy -2 -1.75)
+      (xy -1.75 -1.5)
+      (xy -2 -1.25)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 785cb56d-c885-4046-b8ae-29fd70976bbf))
+  (fp_poly
+    (pts
+      (xy -1.75 -1.5)
+      (xy -2 -1.75)
+      (xy -2 -1.25)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 10e6b011-9c1e-4e8e-8e06-43339cd4b406))
+  (pad "1" thru_hole circle (at -0.75 -1.5) (size 1.1 1.1) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 58a0c712-86d2-413f-b4c1-56decfbbc90d))
+  (pad "2" smd circle (at -0.75 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2bae117e-91cf-4c03-ac9d-483e8e86f3e2))
+  (pad "3" thru_hole circle (at -0.75 1.5) (size 1.1 1.1) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp c42deba6-d8c2-4c99-b75e-6743e5eac267))
+  (pad "4" smd circle (at 0.75 1.5) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b52bd6b9-21b8-4b99-a594-d9435df39f97))
+  (pad "5" smd circle (at 0.75 0) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 82c7c42c-7191-47e4-a342-f6fe32dc3d39))
+  (pad "6" smd circle (at 0.75 -1.5) (size 1.1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2ea20bc2-75a6-4099-a10a-c31eba5aa3df))
+)
