@@ -1,11 +1,11 @@
-(footprint "CONN_PROG_6x_15mm" (version 20221018) (generator pcbnew)
+(footprint "CONN_PROG_6pin-1_5mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "P**" (at 2.5 0 270) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp de37bc37-aba2-4570-8a9a-ab2ea0aa7a8c)
   )
-  (fp_text value "CONN_PROG_6x_15mm" (at 0 -2.75) (layer "F.Fab") hide
+  (fp_text value "CONN_PROG_6pin-1_5mm" (at 0 -2.75) (layer "F.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.1)))
     (tstamp 9ae1df47-821b-44e6-834f-e0313591a835)
   )
