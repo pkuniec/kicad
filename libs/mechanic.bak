@@ -1545,7 +1545,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -7.62 6.35 0)
+			(at -0.762 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,6 +1562,24 @@
 				(justify left bottom)
 			)
 		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" ""
 			(at 0 0 0)
 			(effects
@@ -1573,8 +1591,8 @@
 		)
 		(symbol "Wurth_SKEDO_6pin_0_0"
 			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
+				(start -3.81 5.08)
+				(end 3.81 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1583,9 +1601,11 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "Wurth_SKEDO_6pin_1_0"
 			(pin passive line
-				(at -12.7 2.54 0)
-				(length 5.08)
+				(at -6.35 2.54 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -1602,8 +1622,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
-				(length 5.08)
+				(at 6.35 2.54 180)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -1620,8 +1640,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 0 0)
-				(length 5.08)
+				(at -6.35 0 0)
+				(length 2.54)
 				(name "3"
 					(effects
 						(font
@@ -1638,8 +1658,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
-				(length 5.08)
+				(at 6.35 0 180)
+				(length 2.54)
 				(name "4"
 					(effects
 						(font
@@ -1656,8 +1676,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -2.54 0)
-				(length 5.08)
+				(at -6.35 -2.54 0)
+				(length 2.54)
 				(name "5"
 					(effects
 						(font
@@ -1674,8 +1694,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
-				(length 5.08)
+				(at 6.35 -2.54 180)
+				(length 2.54)
 				(name "6"
 					(effects
 						(font

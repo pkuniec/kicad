@@ -1,0 +1,97 @@
+(footprint "1206-hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
+	(tags "resistor 1206")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "e4439bc2-59bf-44c3-b858-b89eac193132")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "REF**"
+		(at 0 1.651 0)
+		(layer "F.Fab")
+		(uuid "1cb6f4df-96b5-4725-96c6-64837315c78c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "337ef6ba-1643-47d4-bb7a-f803619b2948")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cf134c0-b358-4312-a01b-1b426c4bbe4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0add4620-c8fc-4f13-be2d-4c986c33a0fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "F&B.Cu")
+		(uuid "d4176028-f461-475c-bac8-f26fbcd867e4")
+	)
+	(pad "1" smd rect
+		(at -1.75 0)
+		(size 1.2 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "09f0413f-409f-4ea8-b7d2-7a435a1e76ec")
+	)
+	(pad "2" smd rect
+		(at 1.75 0)
+		(size 1.2 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3d73736d-1487-4ede-ad93-33ad33d059f4")
+	)
+	(model "${KISYS3DMOD}/Resistors_SMD.3dshapes/R_1206.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
