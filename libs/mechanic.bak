@@ -66,7 +66,7 @@
 			(pin power_in line
 				(at -7.62 0 0)
 				(length 2.54)
-				(name "3V3"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -198,7 +198,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "User_packages:Wurth-ESP-6pin"
 			(at 0 0 0)
 			(effects
 				(font

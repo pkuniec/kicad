@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "User_packages:ESP_PROG_2x3_2MM"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -198,7 +198,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "User_packages:Wurth-ESP-6pin"
 			(at 0 0 0)
 			(effects
 				(font
